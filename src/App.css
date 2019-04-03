@@ -1,0 +1,96 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/space-background-cartoon-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Home h1 {
+  color: white;
+  font-size: 5em;
+  font-family: monospace;
+}
+
+.Home h4 {
+  font-size: 2.5em;
+  color: white;
+  font-family: monospace;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: rgba(0,0,0,.5);
+ text-align: center;
+}
+
+.go-back-button {
+  margin-left: 10%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+.go-back-button:hover {
+  cursor: pointer;
+  background-color:rgba(255,255,255,.7);
+  transition: 1s;
+  color: black;
+}
+
+.home-input {
+  padding: 20px 40px;
+  margin: 0 50px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+.home-submit-button {
+  padding: 25px 100px;
+  margin-top: 50px;
+  border-radius: 15px;
+  font-size: 2em;
+  background-color:white;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.chatroom-container {
+  width: 100vw;
+  height: 100vh;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-on-black-black-background_v15aai_9__F0000.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatroom-main {
+  width: 85vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+  .go-back-button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+}

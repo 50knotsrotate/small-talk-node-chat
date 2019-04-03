@@ -1,0 +1,119 @@
+.chat-window {
+    height: 85%;
+    width: 50%;
+    color: white;
+    
+}
+
+.chat-window h1 {
+    text-align: center;
+}
+
+.comment-form {
+    height: 15%;
+    text-align: center;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+.comment-form h6 h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.comment-input {
+    width: 80%;
+    background-color: rgba(0,0,0,.2);
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.comments-container {
+   height: 90%;
+    border: 1px solid white;
+    overflow-y: scroll;
+}
+
+.submit-button {
+    color: green;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+
+.comment-container {
+    height:90px;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-container h2 {
+    margin: 5px;
+    padding: 0;
+}
+
+.comment-submit {
+    width: 15%;  
+    height: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    font-family: monospace;
+    font-weight: bold; 
+}
+
+.edit-input {
+    background: transparent;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.delete-button {
+    border: none;
+    background: transparent;
+    color: red;
+    font-weight: bold;
+    /* background-color: transparent; */
+}
+
+.edit-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.edit-button:hover, .delete-button:hover {
+    cursor: pointer;
+
+}
+
+.typing-user {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .chat-window {
+        min-width: 600px;
+        max-height: 1000px;
+    }
+
+    .comment-container h2 {
+        font-size: .8em;
+    }
+}
